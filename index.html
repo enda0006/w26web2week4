@@ -42,6 +42,19 @@
 
         <section>
           <!-- this section is for playing with the picture element -->
+           <picture>
+            <!-- the picture tag lets you supply diffrent images for diffrent senerios, changing the shape and size -->
+             <source srcset="images/puppy-1200.jpg"
+             media="(min-width:1240px)">
+
+             <source srcset="images/puppy-900.jpg"
+             media="(min-width:940px)">
+
+             <source srcset="images/puppy-600.jpg"
+             media="(min-width:939px)">
+
+             <img src="images/puppy-600.jpg" alt="A White puppy standing in short grass">
+           </picture>
         </section>
     </main>
     <footer>
